@@ -55,4 +55,9 @@ Kubernetes supports other runtime engines as well like ContainerD, a Rocket.
 
 ``` Eg: The captain on the ship. The captain is responsible for managing all activities on these ships. The captain is responsible for cooperating with the master ships, starting with letting the mastership know that they're interested in joining the group, receiving information about the containers to be loaded on the ship and loading the appropriate containers as required```
 
-2. Kube-proxy: 
+2. Kube-proxy: It is used to communicate between the multiple worker nodes. It maintains network rules on nodes and also make sure there are necessary rules define on the worker node so the container can communicate to each in different nodes.
+
+```Eg: You might have a web server running in a container on one of the nodes and a database server running on another container on another node. How would the web server reach the database server on the other node? Communication between worker nodes are enabled by another component that runs on the worker node known as the Kube Proxy Service. ```
+
+## Reference
+https://k21academy.com/docker-kubernetes/kubernetes-architecture-components-overview-for-beginners/
