@@ -60,4 +60,4 @@ Kubernetes supports other runtime engines as well like ContainerD, a Rocket.
 ```Eg: You might have a web server running in a container on one of the nodes and a database server running on another container on another node. How would the web server reach the database server on the other node? Communication between worker nodes are enabled by another component that runs on the worker node known as the Kube Proxy Service. ```
 
 ## Reference
-https://k21academy.com/docker-kubernetes/kubernetes-architecture-components-overview-for-beginners/
+https://k21academy.com/docker-kubernetes/kubernetes-architecture-components-overview-for-beginners/ 
